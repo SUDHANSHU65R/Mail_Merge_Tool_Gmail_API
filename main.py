@@ -60,7 +60,7 @@ def main():
     gm = build('gmail', 'v1', credentials=gkey)
 
     # Load Sheets
-    sheet = load_sheet("https://docs.google.com/spreadsheets/d/1ta-K8gMuNLctx18cq-JW9y6LfSV8J89dQeJTB9YYHcI/edit#gid=105697467", "HtmlMail")
+    sheet = load_sheet("https://Google_Sheet_URL", "HtmlMail")
     wksDF = sheet.get_as_df(start="A", end='H')
 
     # Read HTML template

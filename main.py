@@ -14,12 +14,6 @@ from googleapiclient.http import MediaFileUpload
 
 # Define global variables
 SCOPES = [
-    "https://www.googleapis.com/auth/contacts.readonly",
-    "https://www.googleapis.com/auth/chat.spaces.readonly",
-    "https://www.googleapis.com/auth/chat",
-    "https://www.googleapis.com/auth/chat.messages",
-    "https://www.googleapis.com/auth/chat.messages.readonly",
-    "https://www.googleapis.com/auth/chat.memberships",
     "https://www.googleapis.com/auth/drive.file",
     "https://www.googleapis.com/auth/spreadsheets",
     "https://www.googleapis.com/auth/gmail.send",
